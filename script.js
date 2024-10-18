@@ -1,10 +1,10 @@
 let data= [];
 
-function enterInputs(){
-
-    let songname= inputsongName.value;
-    let artistname= inputartistname.value;
-    let songduration= inputnumber.value
+function formInputs(){
+event.preventDefault()
+    let songname= inputname.value;
+    let artistname= inputband.value;
+    let songduration= inputtime.value
     
 
     let temp= {
@@ -25,6 +25,7 @@ let tableLayout=
 <th>songName</th>
 <th>artistname</th>
 <th>songduration</th>
+
 </tr>`
 
 
